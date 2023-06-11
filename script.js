@@ -4,5 +4,8 @@ var input = [
     {userName : 'akbar', userEmail: 'akbar@gmail.com',   dob : '25-5-1998' }  
 ]
 
-var date = new Date(input.dob).getFullYear;
-var now  = new Date.getFullYear
+var dob = new Date(input.dob);
+var now  = new Date;
+var calc = now - dob
+console.log(calc);
+console.log(now);
