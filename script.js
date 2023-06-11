@@ -4,3 +4,5 @@ var input = [
     {userName : 'akbar', userEmail: 'akbar@gmail.com',   dob : '25-5-1998' }  
 ]
 
+var date = new Date(input.dob).getFullYear;
+var now  = new Date.getFullYear
