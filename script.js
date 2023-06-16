@@ -24,5 +24,11 @@ function LoginPage() {
     if (userName.includes(" ")) {
         
     }
+    else{
+        alert("Enter both first and second name")
+    }
+    if (userMail) {
+        
+    }
     
 }
