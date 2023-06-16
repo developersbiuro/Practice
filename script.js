@@ -22,7 +22,7 @@ var userCnic = document.getElementById("cn").value;
 
 function LoginPage() {
     if (userName.includes(" ")) {
-        userName.
+        
     }
     else{
         alert("Enter both first and second name")
@@ -30,5 +30,31 @@ function LoginPage() {
     if (userMail.endswith("@gmail.com")) {
         
     }
-    
+    else{
+        alert("enter valid Gmail")
+    }
+    if (userCncd == 92) {
+        
+    }
+    else{
+        alert("enter valid code")
+    }
+    if (userBio.minLength("30")) {
+        
+    }
+    else{
+        alert("enter minimum 30 chracter")
+    }
+    if (userState == Punjab || userState == Sindh || userState == Blochistan || userState == Kpk) {
+        
+    }
+    else{
+        alert("enter correct State")
+    }
+    if (userCnic.minLength("13")) {
+        
+    }
+    else{
+        alert("enter Valid CNIC")
+    }
 }
