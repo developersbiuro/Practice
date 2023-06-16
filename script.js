@@ -22,12 +22,12 @@ var userCnic = document.getElementById("cn").value;
 
 function LoginPage() {
     if (userName.includes(" ")) {
-        
+        userName.
     }
     else{
         alert("Enter both first and second name")
     }
-    if (userMail) {
+    if (userMail.endswith("@gmail.com")) {
         
     }
     
