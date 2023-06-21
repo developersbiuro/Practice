@@ -132,7 +132,7 @@
             var bio = document.getElementById("Bio").value;
             var state = document.getElementById("state").value;
             var cnic = document.getElementById("cn").value;
-
+var pera = document.getElementById("pp")
             var errors = [];
 
             // Validating Name
@@ -185,6 +185,7 @@
             
             
             console.log(user);
+pera.innerHTML= $(user)
             // You can access the validated values as an object
 
             // Optional: Submit the form to a server or perform other actions
@@ -215,7 +216,14 @@
             return cnic.length === 13 && !isNaN(cnic);
         }
 
+console.log("njgbjhg");
 
+
+try {
+    
+} catch (error) {
+    
+}
 
 
         
