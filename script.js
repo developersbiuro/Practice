@@ -216,14 +216,6 @@ pera.innerHTML= $(user)
             return cnic.length === 13 && !isNaN(cnic);
         }
 
-console.log("njgbjhg");
-
-
-try {
-    
-} catch (error) {
-    
-}
 
 
         
