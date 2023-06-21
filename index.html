@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<center>
+<<center>
     <div class="card "  style="border-style: outset;border-color: black;width: 500px;height: 600px;margin-top: 50px;">
         <center>
             <h1>Login Page</h1><br>
@@ -21,11 +21,17 @@
                 <input type="number" placeholder="enter your country code" id="cncd" style="margin-bottom: 15px;"><br>
                 <label for="">Bio :</label>
                 <textarea name="bio" id="Bio" placeholder="enter about yourself" cols="20" rows="5"></textarea><br>
-                <label for="">State:</label>
-                <input type="text" placeholder="enter your state" id="stat" style="margin-bottom: 15px;"><br>
+                <label for="state">State:</label>
+                <select id="state" required>
+                  <option value="">-- Select State --</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Sindh">Sindh</option>
+                  <option value="Balochistan">Balochistan</option>
+                  <option value="KPK">KPK</option>
+                  </select><br>
                 <label for="">CNIC:</label>
                 <input type="number" placeholder="enter your 13 no cnic" id="cn" style="margin-bottom: 15px;"><br>
-                <button class="btn btn-secondary"> Login</button>
+                <button class="btn btn-secondary" onclick="validateForm()"> Login</button>
             </form>
         </center>
     </div>
